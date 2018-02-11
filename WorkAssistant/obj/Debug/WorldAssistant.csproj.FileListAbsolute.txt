@@ -1,0 +1,11 @@
+D:\CSharpProject\WorldAssistant\WorldAssistant\WorldAssistant\bin\Debug\WorldAssistant.exe.config
+D:\CSharpProject\WorldAssistant\WorldAssistant\WorldAssistant\bin\Debug\WorldAssistant.exe
+D:\CSharpProject\WorldAssistant\WorldAssistant\WorldAssistant\bin\Debug\WorldAssistant.pdb
+D:\CSharpProject\WorldAssistant\WorldAssistant\WorldAssistant\obj\Debug\WorldAssistant.csprojResolveAssemblyReference.cache
+D:\CSharpProject\WorldAssistant\WorldAssistant\WorldAssistant\obj\Debug\WorldAssistant.Properties.Resources.resources
+D:\CSharpProject\WorldAssistant\WorldAssistant\WorldAssistant\obj\Debug\WorldAssistant.csproj.GenerateResource.Cache
+D:\CSharpProject\WorldAssistant\WorldAssistant\WorldAssistant\obj\Debug\WorldAssistant.exe
+D:\CSharpProject\WorldAssistant\WorldAssistant\WorldAssistant\obj\Debug\WorldAssistant.pdb
+D:\CSharpProject\WorldAssistant\WorldAssistant\bin\Debug\WorldAssistant.exe.config
+D:\CSharpProject\WorldAssistant\WorldAssistant\obj\Debug\WorldAssistant.exe
+D:\CSharpProject\WorldAssistant\WorldAssistant\obj\Debug\WorldAssistant.pdb

@@ -1,0 +1,14 @@
+D:\CSharpProject\WorkAssistant\WorkAssistant\bin\Debug\WorldAssistant.exe.config
+D:\CSharpProject\WorkAssistant\WorkAssistant\obj\Debug\WorldAssistant.exe
+D:\CSharpProject\WorkAssistant\WorkAssistant\obj\Debug\WorldAssistant.pdb
+D:\CSharpProject\WorkAssistant\WorkAssistant\bin\Debug\WorldAssistant.exe
+D:\CSharpProject\WorkAssistant\WorkAssistant\bin\Debug\WorldAssistant.pdb
+D:\CSharpProject\WorkAssistant\WorkAssistant\bin\Debug\UnityEditor.dll
+D:\CSharpProject\WorkAssistant\WorkAssistant\bin\Debug\UnityEngine.dll
+D:\CSharpProject\WorkAssistant\WorkAssistant\bin\Debug\Mono.Cecil.dll
+D:\CSharpProject\WorkAssistant\WorkAssistant\bin\Debug\nunit.framework.dll
+D:\CSharpProject\WorkAssistant\WorkAssistant\bin\Debug\Unity.DataContract.dll
+D:\CSharpProject\WorkAssistant\WorkAssistant\bin\Debug\ICSharpCode.NRefactory.dll
+D:\CSharpProject\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.csprojResolveAssemblyReference.cache
+D:\CSharpProject\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.Properties.Resources.resources
+D:\CSharpProject\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.csproj.GenerateResource.Cache
