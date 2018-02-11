@@ -12,3 +12,17 @@ D:\CSharpProject\WorkAssistant\WorkAssistant\bin\Debug\ICSharpCode.NRefactory.dl
 D:\CSharpProject\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.csprojResolveAssemblyReference.cache
 D:\CSharpProject\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.Properties.Resources.resources
 D:\CSharpProject\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.csproj.GenerateResource.Cache
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\bin\Debug\UnityEditor.dll
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\bin\Debug\UnityEngine.dll
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\bin\Debug\Mono.Cecil.dll
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\bin\Debug\nunit.framework.dll
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\bin\Debug\Unity.DataContract.dll
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\bin\Debug\ICSharpCode.NRefactory.dll
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.Properties.Resources.resources
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.csproj.GenerateResource.Cache
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\bin\Debug\WorkAssistant.exe.config
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\bin\Debug\WorkAssistant.exe
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\bin\Debug\WorkAssistant.pdb
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.csprojResolveAssemblyReference.cache
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.exe
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.pdb

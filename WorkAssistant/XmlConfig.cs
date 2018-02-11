@@ -44,8 +44,14 @@ namespace WorkAssistant
                 string filePath = "AppConfig.xml";
                 if (!File.Exists(filePath))
                     return;
-                appXml.Load(filePath);
+                /*appXml.Load(filePath);
+                //http://www.w3school.com.cn/xmldom/dom_element.asp
                 XmlElement root = appXml.DocumentElement;
+                XmlNodeList nodeList = root.ChildNodes;
+                for (int i = 0; i < nodeList.Count; i++)
+                {
+                    Console.WriteLine(nodeList[i].InnerText);
+                }*/
             }
             catch (XmlException e)
             {
@@ -57,10 +63,16 @@ namespace WorkAssistant
         {
             try
             {
-                string filePath = "WorkConfig.xml";
+                string filePath = Directory.GetCurrentDirectory() + "\\WorkConfig.xml";
                 if (!File.Exists(filePath))
                     return;
                 workXml.Load(filePath);
+                XmlElement root = appXml.DocumentElement;
+                XmlNodeList nodeList = root.ChildNodes;
+                for (int i = 0; i < nodeList.Count; i++)
+                {
+                    Console.WriteLine(nodeList[i].InnerText);
+                }
             }
             catch (XmlException e)
             {
