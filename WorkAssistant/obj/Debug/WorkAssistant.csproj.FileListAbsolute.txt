@@ -26,3 +26,4 @@ D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\bin\Debug\WorkAssistant.pdb
 D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.csprojResolveAssemblyReference.cache
 D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.exe
 D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.pdb
+D:\GitHub\zwwxtool\WorkAssistant\WorkAssistant\obj\Debug\WorkAssistant.MainForm.resources

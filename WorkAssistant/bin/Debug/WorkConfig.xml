@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8" ?>
 <root>
 	<project>
-		<path>D:\ssss\trunk\client</path>
+		<name>主干</name>
+		<client_pc>D:\ssss\trunk\client</client_pc>
+		<client_android></client_android>
+		<client_build_pc></client_build_pc>
+		<client_build_android></client_build_android>
+		<client_svn_url>http://192.168.1.11/ssss/trunk/client</client_svn_url>
 	</project>
 	<project>
-		<path>D:\ssss\branches\client\2018-01-24</path>
+		<name>国内分支[0124]</name>
+		<client_pc>D:\ssss\branches\client\2018-01-24</client_pc>
+		<client_android></client_android>
+		<client_build_pc></client_build_pc>
+		<client_build_android></client_build_android>
+		<client_svn_url>http://192.168.1.11/ssss/branches/client/2018-01-24</client_svn_url>
 	</project>
 	<project>
-		<path>D:\ssss\branches\client\2018-01-23taiwan</path>
+		<name>台湾分支[0123]</name>
+		<client_pc>D:\ssss\branches\client\2018-01-23taiwan</client_pc>
+		<client_android></client_android>
+		<client_build_pc></client_build_pc>
+		<client_build_android></client_build_android>
+		<client_svn_url>http://192.168.1.11/ssss/branches/client/2018-01-23taiwan</client_svn_url>
 	</project>
 </root>

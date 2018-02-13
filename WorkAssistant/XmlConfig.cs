@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,11 +7,14 @@ using System.Xml;
 using System.IO;
 using System.Threading.Tasks;
 using System.Threading;
+using System.Reflection;
 
 namespace WorkAssistant
 {
     public class XmlConfig
     {
+        public List<ProjectConfig> projects = new List<ProjectConfig>();
+
         private XmlDocument appXml = new XmlDocument();
         private XmlDocument workXml = new XmlDocument();
 
@@ -63,15 +67,33 @@ namespace WorkAssistant
         {
             try
             {
-                string filePath = Directory.GetCurrentDirectory() + "\\WorkConfig.xml";
+                projects.Clear();
+                string filePath = string.Format("{0}/WorkConfig.xml", Directory.GetCurrentDirectory());
                 if (!File.Exists(filePath))
                     return;
                 workXml.Load(filePath);
-                XmlElement root = appXml.DocumentElement;
+                XmlElement root = workXml.DocumentElement;
                 XmlNodeList nodeList = root.ChildNodes;
                 for (int i = 0; i < nodeList.Count; i++)
                 {
-                    Console.WriteLine(nodeList[i].InnerText);
+                    switch(nodeList[i].Name)
+                    {
+                        case "project":
+                            XmlNodeList prjNodeList = nodeList[i].ChildNodes;
+                            ProjectConfig project_cfg = new ProjectConfig();
+                            for (int j = 0; j < prjNodeList.Count; j++)
+                            {
+                                string fieldName = prjNodeList[j].Name;
+                                string fieldValue = prjNodeList[j].InnerText;
+                                Type type = project_cfg.GetType();
+                                FieldInfo fi = type.GetField(fieldName);
+                                if (null == fi)
+                                    continue;
+                                fi.SetValue(project_cfg, fieldValue);
+                            }
+                            projects.Add(project_cfg);
+                            break;
+                    }
                 }
             }
             catch (XmlException e)
@@ -79,5 +101,17 @@ namespace WorkAssistant
                 Console.WriteLine(e.ToString());
             }
         }
+    }
+
+    
+
+    public sealed class ProjectConfig
+    {
+        public string name;
+        public string client_pc;
+        public string client_android;
+        public string client_build_pc;
+        public string client_build_android;
+        public string client_svn_url;
     }
 }
